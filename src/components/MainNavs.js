@@ -1,0 +1,15 @@
+import Link from "next/link";
+import React from "react";
+
+const MainNavs = () => {
+  return (
+    <div className="flex gap-5">
+      <Link href="/mainLayout/home">Home</Link>
+      <Link href="/mainLayout/contact">Contact</Link>
+      <Link href="/mainLayout/about">About</Link>
+      <Link href="/mainLayout/products">Products</Link>
+    </div>
+  );
+};
+
+export default MainNavs;
